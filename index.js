@@ -19,16 +19,24 @@ function play(question,answer) {
 }
 
 var questions = [{
-  question: "How old am I?\n",
-  answer: "19",
-}, {
-  question: "Where was i born?\n",
-  answer: "america",
-}, {
-  question: "Whats my fav color?\n",
-  answer: "blue",
-}
-]
+  question : "1) How old am i?\n",
+  answer : "19",
+},{
+  question : "2) Where was i born?\n",
+  answer : "usa",
+},{
+  question : "3) What's my fav color?\n",
+  answer : "blue",
+},{
+  question : "4) What do i enjoy doing the most?\n",
+  answer : "sleeping",
+},{
+  question : "5) What laptop do i use?\n",
+  answer : "omen",
+},{
+  question : "6) Which vehicle do i own?\n",
+  answer : "bmw",
+}]
 
 for(var i=0;i<questions.length;i++) {
   var currentQuestion = questions[i];
